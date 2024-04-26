@@ -1,0 +1,98 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.6 (Oracle Corporation Java 17.0.10)
+[debug] Load.defaultLoad until apply took 94.6206ms
+[debug]           Load.loadUnit: plugins took 70.5417ms
+[debug]           Load.loadUnit: defsScala took 0.4025ms
+[debug] [Loading] Scanning directory C:\Users\jcarbare\IdeaProjects\spark-video-course\project
+[debug]             Load.loadUnit: mkEval took 5.4243ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\jcarbare\IdeaProjects\spark-video-course\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.5216 ms
+[info] loading settings for project spark-video-course-build from plugins.sbt ...
+[debug]               Load.resolveProject(spark-video-course-build) took 33.0834ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark-video-course-build, base: C:\Users\jcarbare\IdeaProjects\spark-video-course\project, plugins: List(<none>))) took 61.729ms
+[debug] [Loading] Done in C:\Users\jcarbare\IdeaProjects\spark-video-course\project, returning: (spark-video-course-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 394.4921ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.282ms
+[debug]         Load.loadUnit(file:/C:/Users/jcarbare/IdeaProjects/spark-video-course/project/, ...) took 478.5453ms
+[debug]       Load.apply: load took 659.4495ms
+[debug]       Load.apply: resolveProjects took 5.9647ms
+[debug]       Load.apply: finalTransforms took 61.1774ms
+[debug]       Load.apply: config.delegates took 7.5487ms
+[debug]       Load.apply: Def.make(settings)... took 298.9332ms
+[debug]       Load.apply: structureIndex took 71.346ms
+[debug]       Load.apply: mkStreams took 2.6335ms
+[info] loading project definition from C:\Users\jcarbare\IdeaProjects\spark-video-course\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1874.1119ms
+[debug]     Load.loadUnit: defsScala took 0.0031ms
+[debug] [Loading] Scanning directory C:\Users\jcarbare\IdeaProjects\spark-video-course
+[debug]       Load.loadUnit: mkEval took 0.2094ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.9376 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.5005ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\jcarbare\IdeaProjects\spark-video-course, plugins: List(<none>))) took 5.792ms
+[debug] [Loading] Done in C:\Users\jcarbare\IdeaProjects\spark-video-course, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1747.9252ms
+[debug]     Load.loadUnit: cleanEvalClasses took 15.2379ms
+[debug]   Load.loadUnit(file:/C:/Users/jcarbare/IdeaProjects/spark-video-course/, ...) took 3638.9612ms
+[debug] Load.apply: load took 3657.7485ms
+[debug] Load.apply: resolveProjects took 0.1115ms
+[debug] Load.apply: finalTransforms took 10.2258ms
+[debug] Load.apply: config.delegates took 0.5389ms
+[debug] Load.apply: Def.make(settings)... took 78.1561ms
+[debug] Load.apply: structureIndex took 45.0292ms
+[debug] Load.apply: mkStreams took 0.0028ms
+[info] set current project to spark-video-course (in build file:/C:/Users/jcarbare/IdeaProjects/spark-video-course/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * root / idePackagePrefix
+[warn]   +- C:\Users\jcarbare\IdeaProjects\spark-video-course\build.sbt:8
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-73eaad2f5fc3a0a02c01
+[debug] Writing bsp connection file
+[info] started sbt server
