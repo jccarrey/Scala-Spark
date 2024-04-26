@@ -1,4 +1,4 @@
-![scala_logo (1)](https://github.com/jccarrey/Scala-Spark/assets/157764646/ab2ee71d-af88-4e66-b67e-42e2476b96a4)
+![scala_logodef](https://github.com/jccarrey/Scala-Spark/assets/157764646/108c8402-74f0-4e15-bc75-d9588f70d991)
 
 ##  📚 &nbsp;Scala-Spark
 
