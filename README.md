@@ -1,2 +1,5 @@
+![scala_logo](https://github.com/jccarrey/Scala-Spark/assets/157764646/c21bb7dd-a463-4c4e-8936-7e2608c1e6c4)
 
-![Recurso 5](https://github.com/jccarrey/Scala-Spark/assets/157764646/963a1938-9f9c-4b1e-bb3a-936f0aea92d8)
+##  📚 &nbsp;Scala-Spark
+
+In this repository, you can find all my progress learning JavaScript.
