@@ -1,1 +1,1 @@
-![scala_logo](https://github.com/jccarrey/Scala-Spark/assets/157764646/eafa0e1c-bf8a-48ce-ab8a-5d4e7932ab52)
+![Recurso 1](https://github.com/jccarrey/Scala-Spark/assets/157764646/fdfcaef3-7b64-4abd-80e9-b1851fc2e395)
