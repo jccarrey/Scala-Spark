@@ -4,7 +4,6 @@ This exercise focuses on utilizing DataFrames in Apache Spark to process text da
 
 Summary:
 
- - Utilization of DataFrames in Apache Spark.
  - Loading data from a text file.
  - Manipulation and transformation of text data.
  - Basic data analysis on text.
